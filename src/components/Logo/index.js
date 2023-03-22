@@ -4,6 +4,7 @@ export default function Logo() {
     return(
         <LogoContainer>
             <LogoImage src={LogoImg} alt='LogoImage'/>
+        
         </LogoContainer>
     )
 }

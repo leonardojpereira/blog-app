@@ -16,8 +16,8 @@ export const UserContainer = styled.div`
   align-items: center;
   background-color: #bfa374;
   padding: 12px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   
 `;
 

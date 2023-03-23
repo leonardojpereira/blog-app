@@ -40,13 +40,15 @@ export const UserIcon = styled.span`
   display: flex;
   align-items: center;
   font-size: 60px;
-  color: #000; 
+  color: #fff;
+  font-weight: bold;
 `;
 
 export const UserName = styled.span`
   font-size: 26px;
   margin-left: 8px;
-  color: #000; 
+  color: #fff;
+  font-weight: bold;
 `;
 
 export const InfoContainer = styled.div`

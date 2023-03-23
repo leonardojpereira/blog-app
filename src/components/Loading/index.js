@@ -1,10 +1,10 @@
 import { LoadingContainer, LoadingMessage } from './style';
 
-export default function Loading() {
+export default function Loading({message}) {
     return (
         <>
             <LoadingContainer>
-                <LoadingMessage>Carregando posts...</LoadingMessage>
+                <LoadingMessage>{message}</LoadingMessage>
             </LoadingContainer>
         </>
 

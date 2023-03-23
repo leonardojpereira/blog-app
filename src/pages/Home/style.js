@@ -18,7 +18,7 @@ export const Title = styled.h1`
 
 export const Subtitle = styled.h2`
     font-size: 32px;
-    margin: 42px 0;
+    margin: 32px 0;
     text-transform: uppercase;
     color: rgb(101 157 215);
     font-weight: bold;
@@ -53,10 +53,14 @@ export const UserPhoto = styled.span`
     align-items: center;
     font-size: 52px;
     margin-right: 4px;
+    color: #fff;
+  font-weight: bold;
 `;
 
 export const User = styled.p`
     font-size: 22px;
+    color: #fff;
+  font-weight: bold;
 `;
 
 export const BodyContainer = styled.div`

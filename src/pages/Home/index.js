@@ -26,7 +26,7 @@ export default function Home() {
   const [posts, setPosts] = useState([]);
   const [users, setUsers] = useState({});
   const [loading, setLoading] = useState(true);
-  const [liked, setLiked] = useState(false);
+  const [likedPosts, setLikedPosts] = useState([]);
 
   useEffect(() => {
     const fetchUsers = async () => {
@@ -52,13 +52,19 @@ export default function Home() {
     fetchPosts();
   }, [setUsers]);
 
+  //função para adicionar o "gostei" no post
   function handleLike(id) {
- setLiked(!liked);
+    if (likedPosts.includes(id)) {
+      setLikedPosts(likedPosts.filter((postId) => postId !== id));
+    } else {
+      setLikedPosts([...likedPosts, id]);
+    }
   }
 
+  //condicional para exibir mensagem de loading caso a requisição demore
   if(loading){
     return(
-      <Loading/>
+      <Loading message='Carregando posts...'/>
     )
   }
 
@@ -86,8 +92,8 @@ export default function Home() {
               <Link to={`/${post.id}/comments`}>
                 <Comments>Ver comentários</Comments>
               </Link>
-              <LikeIcon onClick={handleLike}>
-              {liked ? <AiFillLike /> : <AiOutlineLike />}
+              <LikeIcon onClick={() => handleLike(post.id)}>
+                {likedPosts.includes(post.id) ? <AiFillLike style={{color: 'rgb(109 208 255)'}} /> : <AiOutlineLike />}
               </LikeIcon>
             </SocialContainer>
           </BodyContainer>

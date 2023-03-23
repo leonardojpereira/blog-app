@@ -4,19 +4,28 @@ import { useParams } from "react-router-dom";
 import { HiUserCircle } from "react-icons/hi";
 import { RiFolderUserFill } from 'react-icons/ri';
 import { Container, Box, Title, UserContainer, UserIcon, UserName, Subtitle, InfoContainer, Info } from './style';
+import Loading from "../../components/Loading";
 export default function User() {
   const { id } = useParams();
   const [user, setUser] = useState({});
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     api
       .get(`https://jsonplaceholder.typicode.com/users/${id}`)
       .then((response) => {
         setUser(response.data);
+        setLoading(false);
       })
       .catch((error) => {
         console.log(error);
       });
   }, [id]);
+
+  if(loading){
+    return(
+      <Loading message="Carregando usuário..."/>
+    )
+  }
 
   return (
     <Container>

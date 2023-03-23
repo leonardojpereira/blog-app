@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-   
+
 `;
 
 export const Title = styled.div`
@@ -25,7 +25,7 @@ export const CommentContainer = styled.div`
     margin: 22px auto;
     margin-bottom: 50px;
     border-radius: 16px;
-
+    position: relative;
 `;
 
 export const UserContainer = styled.div`
@@ -36,16 +36,21 @@ export const UserContainer = styled.div`
  border-top-left-radius: 16px;
  border-top-right-radius: 16px;
  padding: 8px;
+
 `;
 
 export const UserPhoto = styled.div`
  display: flex;
   align-items: center;
   font-size: 60px;
+  color: #fff;
+  font-weight: bold;
 `;
 
 export const UserName = styled.div`
-       font-size: 18px;
+   font-size: 18px;
+   color: #fff;
+  font-weight: bold;
 `;
 
 export const CommentBodyContainer = styled.div`
@@ -53,12 +58,33 @@ padding: 22px;
 
 `;
 
-export const CommentName = styled.div`
-    font-size: 22px;
+export const CommentName = styled.h2`
     margin: 16px 0;
+    font-size: 22px;
+ &::first-letter {
+    text-transform: capitalize;
+ }
 `;
 
 export const CommentBody = styled.div`
       font-size: 18px;
+      margin-bottom: 42px;
+ &::first-letter {
+    text-transform: capitalize;
+ }
+`;
+
+export const LikeButton = styled.span`
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  font-size: 28px;
+  cursor: pointer;
+  transition: ease 0.4s;
+  margin-top: 40px;
+  &:hover {
+    transform: scale(1.2);
+  }
 `;
 

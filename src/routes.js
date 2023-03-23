@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import User from './pages/User';
 import Header from './components/Header';
 import Comments from './pages/Comments';
+import Error from './pages/Error';
 
 export default function RoutesApp() {
     return (
@@ -13,6 +14,8 @@ export default function RoutesApp() {
                 <Route path="/" element={<Home/>} />
                 <Route path="/user/:id" element={<User/>} />
                 <Route path="/:id/comments" element={<Comments/>} />
+
+                <Route path='*' element={<Error/>}/>
             </Routes>
         </BrowserRouter>
     )

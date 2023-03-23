@@ -7,6 +7,7 @@ export const HeaderContainer = styled.header`
     justify-content: space-between;
     background-color: #bfa374;
     padding: 22px 42px;
+    border-bottom: solid 3px rgb(153 131 93);
 `;
 
 export const HomeBtn = styled.button`

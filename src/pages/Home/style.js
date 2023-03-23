@@ -7,11 +7,16 @@ flex-direction: column;
 align-items: center;
 `;
 
+export const Title = styled.h1`
+    margin: 42px 0;
+`;
+
+
 export const PostContainer = styled.div`
     width: 100%;
-    max-width: 500px;
+    max-width: 700px;
     margin: 22px 0;
-    background: #aca;
+    background-color: #bfa374;
     border-radius: 8px;
     box-shadow: 5px 5px 5px #5e5e5d;
 `;
@@ -56,12 +61,35 @@ export const PostBody = styled.p`
  }
 `;
 
+export const SocialContainer = styled.div`
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 22px;
+`;
+
 export const Comments = styled.button`
-    margin-top: 22px;
     cursor: pointer;
     border: none;
     background: none;
-    color: #063970;
+    color: #000;
+    font-size: 18px;
+    transition: ease 0.4s;
+    &:hover {
+        opacity: 0.8;
+    }
 `
+
+export const LikeIcon = styled.span`
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: ease 0.4s;
+  &:hover {
+    transform: scale(1.2);
+  }
+`
+
 
 

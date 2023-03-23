@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { api } from "../../services/api";
 import { useParams } from "react-router-dom";
 import { HiUserCircle } from "react-icons/hi";
-import { Container, UserContainer, UserIcon, UserName, Title, InfoContainer, Info } from './style';
+import { RiFolderUserFill } from 'react-icons/ri';
+import { Container, Box, Title, UserContainer, UserIcon, UserName, Subtitle, InfoContainer, Info } from './style';
 export default function User() {
   const { id } = useParams();
   const [user, setUser] = useState({});
@@ -19,15 +20,16 @@ export default function User() {
 
   return (
     <Container>
+      <Title><RiFolderUserFill style={{marginRight: '12px', fontSize: '60px', color: 'rgb(109, 208, 255)'}}/> Informações de usuário</Title>
+      <Box>
       <UserContainer>
         <UserIcon>
           <HiUserCircle />
         </UserIcon>
         <UserName>{`${user.username}`}</UserName>
       </UserContainer>
-      <Title>Informações básicas</Title>
+      <Subtitle>Informações básicas</Subtitle>
       <InfoContainer>
-        <Info>{`ID: ${user.id}`}</Info>
         <Info>{`Nome: ${user.name}`}</Info>
         <Info>{`Nome de usuário: ${user.username}`}</Info>
         <Info>{`Rua: ${user.address ? user.address.street : ""}`}</Info>
@@ -35,18 +37,21 @@ export default function User() {
         <Info>{`Cidade: ${user.address ? user.address.city : ""}`}</Info>
         <Info>{`CEP: ${user.address ? user.address.zipcode : ""}`}</Info>
       </InfoContainer>
-      <Title>Contato</Title>
+      <Subtitle>Contato</Subtitle>
       <InfoContainer>
         <Info>{`Telefone: ${user.phone}`}</Info>
         <Info>{`Email: ${user.email}`}</Info>
         <Info>{`Site: ${user.website}`}</Info>
       </InfoContainer>
-      <Title>Empresa</Title>
+      <Subtitle>Empresa</Subtitle>
       <InfoContainer>
         <Info>{`Nome: ${user.company ? user.company.name : ""}`}</Info>
         <Info>{`Slogan: ${user.company ? user.company.catchPhrase : ""}`}</Info>
         <Info>{`Ramo: ${user.company ? user.company.bs : ""}`}</Info>
       </InfoContainer>
+      </Box>
+      
+    
     </Container>
   );
 }

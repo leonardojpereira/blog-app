@@ -1,6 +1,21 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+`;
+
+export const Title = styled.h1`
+display: flex;
+justify-content: center;
+align-items: center;
+  text-align: center;
+  font-size: 42px;
+  margin: 42px 0;
+  color: rgb(70 70 70);
+  font-weight: bold;
+  
+`;
+
+export const Box = styled.div`
   width: 100%;
   max-width: 700px;
   background: #fff;
@@ -18,8 +33,7 @@ export const UserContainer = styled.div`
   padding: 12px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
-
-  
+  background-color: rgb(109, 208, 255);
 `;
 
 export const UserIcon = styled.span`
@@ -41,15 +55,17 @@ export const InfoContainer = styled.div`
   padding: 12px;
 `;
 
-export const Title = styled.h2`
-background-color: #bfa374;
+export const Subtitle = styled.h2`
   color: #fff;
   text-align: center;
   padding: 6px 0;
+  background-color: rgb(70 70 70);
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  font-size: 18px;
 `;
 
 export const Info = styled.span`
   font-size: 18px;
   padding: 8px 0;
-  border-bottom: solid 2px #ddd;
 `;

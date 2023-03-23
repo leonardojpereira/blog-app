@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { api } from '../../services/api';
 import { HiUserCircle } from 'react-icons/hi';
+import { MdInsertComment } from 'react-icons/md';
 import { Container, Title, CommentContainer, UserContainer, UserPhoto, UserName, CommentBodyContainer, CommentName, CommentBody } from './style';
 export default function Comments() {
 
@@ -20,7 +21,7 @@ export default function Comments() {
 
     return (
         <Container>
-            <Title>{`Comentários do post ${id}`}</Title>
+            <Title><MdInsertComment style={{marginRight: '12px', fontSize: '60px', color: 'rgb(109, 208, 255)'}}/>{`Comentários do post ${id}`}</Title>
             {comment.map(comment => (
                 <CommentContainer key={comment.id}>
                     <UserContainer>
@@ -28,7 +29,7 @@ export default function Comments() {
                         <UserName>{comment.email}</UserName>
                     </UserContainer>
                     <CommentBodyContainer>
-                        <CommentName>{`Título: ${comment.name}`}</CommentName>
+                        <CommentName>{comment.name}</CommentName>
                         <CommentBody>{comment.body}</CommentBody>
                     </CommentBodyContainer>
 

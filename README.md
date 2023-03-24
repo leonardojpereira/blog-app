@@ -14,24 +14,24 @@ Para o desenvolvimento do projeto, utilizei o framework ReactJS e e a biblioteca
  Utilizei os seguintes serviços para fazer a requisição dos dados:
  
  <h3>Listagem de posts</h3>
- ```
+```
  https://jsonplaceholder.typicode.com/posts
- ```
+```
  
  <h3>Listagem de comentários de um post</h3>
- ```
+```
 https://jsonplaceholder.typicode.com/posts/[ID]/comments
- ```
+```
 
  <h3>Listagem de usuários</h3>
- ```
+```
 https://jsonplaceholder.typicode.com/users
- ```
+```
  
  <h3>Detalhes de um usuário</h3>
- ```
+```
 https://jsonplaceholder.typicode.com/users/[ID]
- ```
+```
  
 A aplicação também conta com a responsividade, se adaptando tanto para desktop quanto para mobile.
 </p>

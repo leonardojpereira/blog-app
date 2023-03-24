@@ -1,4 +1,4 @@
-
+![print](https://user-images.githubusercontent.com/87662269/227659205-188382fc-3a74-47ef-89e2-a32fc0f6b32f.JPG)
 
 <h1 align="center">
  BLOG APP 💻
@@ -9,29 +9,29 @@
 </h2>
 
 <p>
-Para o desenvolvimento do projeto, utilizei o framework ReactJS e e a biblioteca Styled-Components. Como dependências, adicionei o "axios" para fazer as requisições das API's, "react-icons" para adicionar os ícones e o "react-router-dom" para a criação de rotas dentro do site. 
+Para o desenvolvimento do projeto, utilizei o framework ReactJS e a biblioteca Styled-Components. Como dependências, adicionei o "axios" para fazer as requisições das API's, "react-icons" para adicionar os ícones e o "react-router-dom" para a criação de rotas dentro do site. 
  
  Utilizei os seguintes serviços para fazer a requisição dos dados:
  
- <h3>Listagem de posts</h3>
+### Listagem de posts
  
 ```
 https://jsonplaceholder.typicode.com/posts
 ```  
  
- <h3>Listagem de comentários de um post</h3>
+### Listagem de comentários de um post
  
 ```
 https://jsonplaceholder.typicode.com/posts/[ID]/comments
 ```
 
- <h3>Listagem de usuários</h3>
+### Listagem de usuários
  
 ```
 https://jsonplaceholder.typicode.com/users
 ```
  
- <h3>Detalhes de um usuário</h3>
+### Detalhes de um usuário
  
 ```
 https://jsonplaceholder.typicode.com/users/[ID]
@@ -78,29 +78,20 @@ Proto, o projeto estará funcionando!
 ### Você também pode acessar o projeto através do seguinte link:
 
 ```
-EM BREVE
+https://test-blog-post-app.netlify.app
 ```
 
 
 ## 🛠️ Feito com
 * [Visual Studio Code](https://code.visualstudio.com) - Coding Editor
  
- 
-
-## 💻 Tecnologias utilizadas
-<div display="flex">
-   <img align="center" alt="logo_react" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-</div>
-
 
 ## Imagem / Icones
 
 https://react-icons.github.io/react-icons/
 
-
-⌨️ with ❤️ by [Leonardo Barbosa](https://github.com/leonardojpereira) 😊
-
-
-<h3 align="center">
-  :construction: PROJETO FINALIZADO :construction:
-</h3>
+  
+  
+<div align="center">
+  ⌨️ with ❤️ by [Leonardo Barbosa](https://github.com/leonardojpereira) 😊
+</div>

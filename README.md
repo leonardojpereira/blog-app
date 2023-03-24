@@ -75,7 +75,7 @@ Proto, o projeto estará funcionando!
 
 ## :link: Deploy
 
-<h2>Você também pode acessar o projeto através do seguinte link:</h2>
+### Você também pode acessar o projeto através do seguinte link:
 
 ```
 EM BREVE

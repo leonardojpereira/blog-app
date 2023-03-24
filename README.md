@@ -46,7 +46,7 @@ A aplicação também conta com a responsividade, se adaptando tanto para deskto
 ## 🛠 Como inicializar o projeto
 
 <p>
-<strong>1.</strong> Para inicializar o projeto, você deve copiar a URL do projeto e, utilizando o git, inserir o seguinte comando:
+1. Para inicializar o projeto, você deve copiar a URL do projeto e, utilizando o git, inserir o seguinte comando:
  
 ```
 git clone https://github.com/leonardojpereira/blog-app.git
@@ -67,8 +67,8 @@ npm start
 ```    
   
 Proto, o projeto estará funcionando!  
- 
 </p>
+
 
 
 ## :link: Deploy
@@ -79,9 +79,11 @@ Proto, o projeto estará funcionando!
 EM BREVE
 ```
 
+
 ## 🛠️ Feito com
 * [Visual Studio Code](https://code.visualstudio.com) - Coding Editor
-
+ 
+ 
 
 ## 💻 Tecnologias utilizadas
 <div display="flex">

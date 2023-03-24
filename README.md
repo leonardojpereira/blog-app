@@ -43,7 +43,7 @@ A aplicação também conta com a responsividade, se adaptando tanto para deskto
 
 
 
-## 🛠 Como inicializar o projeto
+## ↗️ Como inicializar o projeto
 
 <p>
 1. Para inicializar o projeto, você deve copiar a URL do projeto e, utilizando o git, inserir o seguinte comando:

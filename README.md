@@ -78,7 +78,7 @@ Proto, o projeto estará funcionando!
 ### Você também pode acessar o projeto através do seguinte link:
 
 ```
-EM BREVE
+https://test-blog-post-app.netlify.app
 ```
 
 

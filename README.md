@@ -39,19 +39,24 @@ npm start
 ```    
   
 Proto, o projeto estará funcionando!  
-
+ 
 </p>
+
+
+## :link: Deploy
+
+<h2>Você também pode acessar o projeto através do seguinte link:</h2>
+
+```
+EM BREVE
+```
 
 ## 💻 Tecnologias utilizadas
 <div display="flex">
    <img align="center" alt="logo_react" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
 </div>
 
-## :link: Deploy
 
-```
-EM BREVE
-```
 
 ## Imagem / Icones
 

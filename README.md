@@ -85,13 +85,6 @@ https://test-blog-post-app.netlify.app
 ## 🛠️ Feito com
 * [Visual Studio Code](https://code.visualstudio.com) - Coding Editor
  
- 
-
-## 💻 Tecnologias utilizadas
-<div display="flex">
-   <img align="center" alt="logo_react" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-</div>
-
 
 ## Imagem / Icones
 

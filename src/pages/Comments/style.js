@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-
+  @media screen and (max-width: 900px) {
+        margin: 0 22px;
+    }
 `;
 
 export const Title = styled.div`
@@ -14,6 +16,10 @@ align-items: center;
   color: rgb(70 70 70);
   font-weight: bold;
   text-transform: uppercase;
+  @media screen and (max-width: 900px) {
+       font-size: 32px;
+       flex-direction: column;
+    }
 `;
 
 export const CommentContainer = styled.div`

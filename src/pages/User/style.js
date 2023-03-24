@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+@media screen and (max-width: 900px) {
+        margin: 0 22px;
+    }
 `;
 
 export const Title = styled.h1`
@@ -12,7 +15,10 @@ align-items: center;
   margin: 42px 0;
   color: rgb(70 70 70);
   font-weight: bold;
-  
+  @media screen and (max-width: 900px) {
+       font-size: 32px;
+       flex-direction: column;
+    }
 `;
 
 export const Box = styled.div`

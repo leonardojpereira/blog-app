@@ -13,4 +13,7 @@ export const Arrow = styled.a`
     &:hover {
         transform: scale(1.1);
     }
+    @media screen and (max-width: 900px) {
+        display: none;
+    }
 `;

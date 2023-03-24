@@ -8,6 +8,8 @@ export const HeaderContainer = styled.header`
     background-color: rgb(109 208 255);
     padding: 22px 42px;
     border-bottom: 3px solid rgb(101 157 215);
+    @media screen and (max-width: 900px) {
+    }
 `;
 
 export const HomeBtn = styled.button`
@@ -21,6 +23,7 @@ export const HomeBtn = styled.button`
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    outline: none;
     &:hover {
         transform: scale(1.2);
     }

@@ -5,6 +5,9 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 align-items: center;
+@media screen and (max-width: 900px) {
+        margin: 0 22px;
+    }
 `;
 
 export const Title = styled.h1`
@@ -14,6 +17,9 @@ export const Title = styled.h1`
     text-transform: uppercase;
     display: flex;
     letter-spacing: 4px;
+    @media screen and (max-width: 900px) {
+
+    }
 `;
 
 export const Subtitle = styled.h2`
@@ -24,6 +30,10 @@ export const Subtitle = styled.h2`
     font-weight: bold;
     font-style: italic;
     letter-spacing: 2px;
+    text-align: center;
+    @media screen and (max-width: 900px) {
+        font-size: 22px;
+    }
 `;
 
 

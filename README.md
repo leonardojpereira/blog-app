@@ -41,10 +41,12 @@ https://jsonplaceholder.typicode.com/users/[ID]
 A aplicação também conta com a responsividade, se adaptando tanto para desktop quanto para mobile.
 </p>
 
+
+
 ## 🛠 Como inicializar o projeto
 
 <p>
- 1. Para inicializar o projeto, você deve copiar a URL do projeto e, utilizando o git, inserir o seguinte comando:
+<strong>1.</strong> Para inicializar o projeto, você deve copiar a URL do projeto e, utilizando o git, inserir o seguinte comando:
  
 ```
 git clone https://github.com/leonardojpereira/blog-app.git

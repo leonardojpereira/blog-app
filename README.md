@@ -15,8 +15,8 @@ Para o desenvolvimento do projeto, utilizei o framework ReactJS e e a biblioteca
  
  <h3>Listagem de posts</h3>
 ```
- https://jsonplaceholder.typicode.com/posts
-```
+https://jsonplaceholder.typicode.com/posts
+```  
  
  <h3>Listagem de comentários de um post</h3>
 ```

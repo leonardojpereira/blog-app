@@ -20,19 +20,23 @@ API: https://jsonplaceholder.typicode.com/posts
 ```  
  
  <h3>Listagem de comentários de um post</h3>
+ 
 ```
 API: https://jsonplaceholder.typicode.com/posts/[ID]/comments
 ```
 
  <h3>Listagem de usuários</h3>
+ 
 ```
 API: https://jsonplaceholder.typicode.com/users
 ```
  
  <h3>Detalhes de um usuário</h3>
+ 
 ```
 https://jsonplaceholder.typicode.com/users/[ID]
 ```
+ 
  
 A aplicação também conta com a responsividade, se adaptando tanto para desktop quanto para mobile.
 </p>

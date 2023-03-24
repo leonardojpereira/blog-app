@@ -14,6 +14,7 @@ Para o desenvolvimento do projeto, utilizei o framework ReactJS e e a biblioteca
  Utilizei os seguintes serviços para fazer a requisição dos dados:
  
  <h3>Listagem de posts</h3>
+ 
 ```
 API: https://jsonplaceholder.typicode.com/posts
 ```  

@@ -23,6 +23,8 @@ export default function Comments() {
   const [comments, setComments] = useState([]);
   const [loading, setLoading] = useState(true);
 
+
+  //função para carregar os comentários
   useEffect(() => {
     const fetchComments = async () => {
       const response = await api.get(
@@ -40,6 +42,7 @@ export default function Comments() {
     fetchComments();
   }, [id]);
 
+ //função para adicionar o "gostei" no post
   function handleLike(commentId) {
     const updatedComments = comments.map((comment) => {
       if (comment.id === commentId) {
@@ -53,6 +56,7 @@ export default function Comments() {
     setComments(updatedComments);
   }
 
+   //condicional para exibir mensagem de loading caso a requisição demore
   if (loading) {
     return <Loading message="Carregando comentários..." />;
   }

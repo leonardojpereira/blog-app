@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-@media screen and (max-width: 900px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (max-width: 900px) {
         margin: 0 22px;
     }
 `;
@@ -17,9 +17,6 @@ export const Title = styled.h1`
     text-transform: uppercase;
     display: flex;
     letter-spacing: 4px;
-    @media screen and (max-width: 900px) {
-
-    }
 `;
 
 export const Subtitle = styled.h2`
@@ -48,14 +45,14 @@ export const PostContainer = styled.div`
 `;
 
 export const UserContainer = styled.div`
- display: flex;
- align-items: center;
- background: rgb(109 208 255);
- border-bottom: 3px solid rgb(101 157 215);
- padding: 12px 12px 12px 16px;
- border-top-left-radius: 8px;
- border-top-right-radius: 8px;
- cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: rgb(109 208 255);
+    border-bottom: 3px solid rgb(101 157 215);
+    padding: 12px 12px 12px 16px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
 `;
 
 export const UserPhoto = styled.span`
@@ -64,17 +61,17 @@ export const UserPhoto = styled.span`
     font-size: 52px;
     margin-right: 4px;
     color: #fff;
-  font-weight: bold;
+    font-weight: bold;
 `;
 
 export const User = styled.p`
     font-size: 22px;
     color: #fff;
-  font-weight: bold;
+    font-weight: bold;
 `;
 
 export const BodyContainer = styled.div`
-padding: 22px;
+    padding: 22px;
 `;
 
 export const PostTitle = styled.h3`
@@ -90,7 +87,7 @@ export const PostTitle = styled.h3`
 
 export const PostBody = styled.p`
     font-size: 18px;
- &::first-letter {
+    &::first-letter {
     text-transform: capitalize;
  }
  @media screen and (max-width: 460px) {
@@ -99,10 +96,10 @@ export const PostBody = styled.p`
 `;
 
 export const SocialContainer = styled.div`
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
 `;
 
 export const Comments = styled.button`
@@ -122,15 +119,14 @@ export const Comments = styled.button`
 `
 
 export const LikeIcon = styled.span`
-  font-size: 28px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  transition: ease 0.4s;
-  &:hover {
-    transform: scale(1.2);
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: ease 0.4s;
+    &:hover {
+        transform: scale(1.2);
   }
 `
-
 
 

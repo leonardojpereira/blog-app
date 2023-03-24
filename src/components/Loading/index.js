@@ -1,6 +1,6 @@
 import { LoadingContainer, LoadingMessage } from './style';
 
-export default function Loading({message}) {
+export default function Loading({ message }) {
     return (
         <>
             <LoadingContainer>

@@ -14,7 +14,6 @@ export default function RoutesApp() {
                 <Route path="/" element={<Home/>} />
                 <Route path="/user/:id" element={<User/>} />
                 <Route path="/:id/comments" element={<Comments/>} />
-
                 <Route path='*' element={<Error/>}/>
             </Routes>
         </BrowserRouter>

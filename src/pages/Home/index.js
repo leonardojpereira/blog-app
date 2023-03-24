@@ -28,7 +28,9 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [likedPosts, setLikedPosts] = useState([]);
 
+  
   useEffect(() => {
+    //função para fazer a requisição das informações dos usuários para pegar o nome de usuário
     const fetchUsers = async () => {
       const response = await api.get(
         "https://jsonplaceholder.typicode.com/users"
@@ -39,7 +41,7 @@ export default function Home() {
       }, {});
       setUsers(usersData);
     };
-
+  //função para fazer a requisição dos posts
     const fetchPosts = async () => {
       const response = await api.get(
         "https://jsonplaceholder.typicode.com/posts"

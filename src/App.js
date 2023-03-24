@@ -5,7 +5,7 @@ import RoutesApp from './routes';
 function App() {
   return (
     <>
-     <GlobalStyle/>
+      <GlobalStyle/>
       <RoutesApp/>
     </>
   );

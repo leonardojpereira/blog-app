@@ -1,70 +1,106 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h1 align="center">
+ BLOG APP 💻
+</h1>
 
-In the project directory, you can run:
+<h2>
+  :pencil: Descrição do projeto
+</h2>
 
-### `yarn start`
+<p>
+Para o desenvolvimento do projeto, utilizei o framework ReactJS e e a biblioteca Styled-Components. Como dependências, adicionei o "axios" para fazer as requisições das API's, "react-icons" para adicionar os ícones e o "react-router-dom" para a criação de rotas dentro do site. 
+ 
+ Utilizei os seguintes serviços para fazer a requisição dos dados:
+ 
+ <h3>Listagem de posts</h3>
+ 
+```
+https://jsonplaceholder.typicode.com/posts
+```  
+ 
+ <h3>Listagem de comentários de um post</h3>
+ 
+```
+https://jsonplaceholder.typicode.com/posts/[ID]/comments
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ <h3>Listagem de usuários</h3>
+ 
+```
+https://jsonplaceholder.typicode.com/users
+```
+ 
+ <h3>Detalhes de um usuário</h3>
+ 
+```
+https://jsonplaceholder.typicode.com/users/[ID]
+```
+ 
+ 
+A aplicação também conta com a responsividade, se adaptando tanto para desktop quanto para mobile.
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ↗️ Como inicializar o projeto
 
-### `yarn build`
+<p>
+ 
+### 1. Para inicializar o projeto, você deve copiar a URL do projeto e, utilizando o git, inserir o seguinte comando:
+ 
+```
+git clone https://github.com/leonardojpereira/blog-app.git
+```
+  
+### 2. Após essa etapa, entre no diretório do projeto dentro do git e insira o seguinte comando:
+  
+```
+npm install
+```  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Isso serve para adicionar todas as dependências do projeto, como o node_modules e as dependêcias citadas acima.
+  
+### 3. Após a instalação, basta digitar:
+  
+```
+npm start
+```    
+  
+Proto, o projeto estará funcionando!  
+ 
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## :link: Deploy
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Você também pode acessar o projeto através do seguinte link:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+EM BREVE
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Feito com
+* [Visual Studio Code](https://code.visualstudio.com) - Coding Editor
+ 
+ 
 
-## Learn More
+## 💻 Tecnologias utilizadas
+<div display="flex">
+   <img align="center" alt="logo_react" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+</div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Imagem / Icones
 
-### Code Splitting
+https://react-icons.github.io/react-icons/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+⌨️ with ❤️ by [Leonardo Barbosa](https://github.com/leonardojpereira) 😊
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3 align="center">
+  :construction: PROJETO FINALIZADO :construction:
+</h3>

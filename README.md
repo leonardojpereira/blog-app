@@ -91,9 +91,9 @@ https://test-blog-post-app.netlify.app
 https://react-icons.github.io/react-icons/
 
 
-⌨️ with ❤️ by [Leonardo Barbosa](https://github.com/leonardojpereira) 😊
-
-
 <h3 align="center">
   :construction: PROJETO FINALIZADO :construction:
 </h3>
+
+
+⌨️ with ❤️ by [Leonardo Barbosa](https://github.com/leonardojpereira) 😊

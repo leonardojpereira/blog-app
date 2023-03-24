@@ -15,11 +15,13 @@ align-items: center;
   margin: 42px 0;
   color: rgb(70 70 70);
   font-weight: bold;
-  text-transform: uppercase;
   @media screen and (max-width: 900px) {
        font-size: 32px;
        flex-direction: column;
     }
+    @media screen and (max-width: 460px) {
+      font-size: 22px;
+  }
 `;
 
 export const CommentContainer = styled.div`
@@ -32,6 +34,7 @@ export const CommentContainer = styled.div`
     margin-bottom: 50px;
     border-radius: 16px;
     position: relative;
+    
 `;
 
 export const UserContainer = styled.div`
@@ -51,12 +54,18 @@ export const UserPhoto = styled.div`
   font-size: 60px;
   color: #fff;
   font-weight: bold;
+  @media screen and (max-width: 460px) {
+    font-size: 46px;
+}
 `;
 
 export const UserName = styled.div`
    font-size: 18px;
    color: #fff;
   font-weight: bold;
+  @media screen and (max-width: 460px) {
+    font-size: 16px;
+}
 `;
 
 export const CommentBodyContainer = styled.div`
@@ -70,6 +79,9 @@ export const CommentName = styled.h2`
  &::first-letter {
     text-transform: capitalize;
  }
+ @media screen and (max-width: 460px) {
+  font-size: 16px;
+}
 `;
 
 export const CommentBody = styled.div`
@@ -78,6 +90,9 @@ export const CommentBody = styled.div`
  &::first-letter {
     text-transform: capitalize;
  }
+ @media screen and (max-width: 460px) {
+  font-size: 14px;
+}
 `;
 
 export const LikeButton = styled.span`

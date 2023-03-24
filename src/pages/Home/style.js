@@ -83,6 +83,9 @@ export const PostTitle = styled.h3`
     &::first-letter {
     text-transform: capitalize;
  }
+ @media screen and (max-width: 460px) {
+    font-size: 16px;
+}
 `;
 
 export const PostBody = styled.p`
@@ -90,6 +93,9 @@ export const PostBody = styled.p`
  &::first-letter {
     text-transform: capitalize;
  }
+ @media screen and (max-width: 460px) {
+    font-size: 14px;
+}
 `;
 
 export const SocialContainer = styled.div`
@@ -109,6 +115,9 @@ export const Comments = styled.button`
     transition: ease 0.4s;
     &:hover {
         opacity: 0.8;
+    }
+    @media screen and (max-width: 460px) {
+        font-size: 14px;
     }
 `
 

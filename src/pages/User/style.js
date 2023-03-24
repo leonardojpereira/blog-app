@@ -19,6 +19,9 @@ align-items: center;
        font-size: 32px;
        flex-direction: column;
     }
+    @media screen and (max-width: 460px) {
+      font-size: 22px;
+  }
 `;
 
 export const Box = styled.div`
@@ -48,6 +51,9 @@ export const UserIcon = styled.span`
   font-size: 60px;
   color: #fff;
   font-weight: bold;
+  @media screen and (max-width: 460px) {
+    font-size: 46px;
+}
 `;
 
 export const UserName = styled.span`
@@ -55,6 +61,9 @@ export const UserName = styled.span`
   margin-left: 8px;
   color: #fff;
   font-weight: bold;
+  @media screen and (max-width: 460px) {
+    font-size: 22px;
+}
 `;
 
 export const InfoContainer = styled.div`

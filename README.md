@@ -46,13 +46,13 @@ A aplicação também conta com a responsividade, se adaptando tanto para deskto
 ## ↗️ Como inicializar o projeto
 
 <p>
-1. Para inicializar o projeto, você deve copiar a URL do projeto e, utilizando o git, inserir o seguinte comando:
+### 1. Para inicializar o projeto, você deve copiar a URL do projeto e, utilizando o git, inserir o seguinte comando:
  
 ```
 git clone https://github.com/leonardojpereira/blog-app.git
 ```
   
-2. Após essa etapa, entre no diretório do projeto dentro do git e insira o seguinte comando:
+### 2. Após essa etapa, entre no diretório do projeto dentro do git e insira o seguinte comando:
   
 ```
 npm install
@@ -60,7 +60,7 @@ npm install
 
 Isso serve para adicionar todas as dependências do projeto, como o node_modules e as dependêcias citadas acima.
   
-3. Após a instalação, basta digitar:
+### 3. Após a instalação, basta digitar:
   
 ```
 npm start
